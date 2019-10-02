@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Домашка1</title>
+</head>
+<body>
+    <form>
+    <h1>Вакансия: Junior Frontend Developer</h1>
+    <img src="photo.png" alt="" />
+    <div style="display: inline-block">
+    <p> Имя: Наталья Падорина </p>
+    <a href="https://github.com/nat-pad/ui-ux">Ссылка на репозиторий в GitHub</a>
+    <p>Опыт работы: нет</p>
+    </div>
+    <p>Дата собеседования: <input type="date" name="calendar"> </p>
+    <p>Уровень английского: </p>
+    <p><lable for="language"><input type="radio" name="language" value="bad">Плохо</lable> <lable for="language"><input type="radio" name="language" value="middle">Средне</lable> <lable for="language"><input type="radio" name="language"  value="good">Хорошо</lable> <lable for="language"><input type="radio" name="language" value="excellent">Превосходно</lable>  </p>
+    <p>Ключевые навыки:</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS/LESS</li>
+        <li>JavaScript</li>
+    </ul>
+    <p><input type="text" name="skills" placeholder="введите навык..."><button>Добавить в список</button></p>
+    <p>Коммуникабельность:
+        <select>
+            <option disabled selected value="pickup">Выберите значение</option>
+            <option value="sociopath">Социопат</option>
+            <option value="introvert">Интроверт</option>
+            <option value="sociable">Общительный</option>
+            <option value="extrovert">Экстраверт</option>
+        </select></p>
+        <p>Желаемая з/п:<input type="number" placeholder="введите значение..."></p>
+        <p>
+            <lable for="checkpoint"><input type="checkbox" name="language">Знание английского</lable><lable for="checkpoint"><input type="checkbox" name="salary">Оклад</lable><lable for="checkpoint"><input type="checkbox" name="skills">Навыки</lable><lable for="checkpoint"><input type="checkbox" name="ourman">Сразу видно, что свой человек</lable>
+            </p>
+            <table border="1">
+                    <caption>Образование, курсы и т.п.</caption>  
+                    <tr> 
+                     <td>#</td><th>Сроки обучения</th><th>Название обучения, курсов...</th>
+                    </tr>
+                    <tr> 
+                     <td>1</td><td><input type="text" name="course 1 date"></td><td><input type="text" name="course 1 name"></td>
+                    </tr>
+                    <tr> 
+                     <td>2</td><td><input type="text" name="course 2 date"></td><td><input type="text" name="course 2 name"></td>
+                    </tr>
+                    <tr> 
+                     <td>3</td><td><input type="text" name="course 3 date"></td><td><input type="text" name="course 3 name"></td>
+                    </tr>
+                   </table>
+                   <p><input type="submit"></p>
+                </form>
+</body>
+</html>
